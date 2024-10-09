@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundraiser Hub - Receipts</title>
+    <title>Company Receipts</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Your Contribution Receipts</h1>
+        <h1>Company Receipts</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="fundpots.html">Fund Pots</a>
@@ -17,39 +17,36 @@
     </header>
 
     <main>
-        <h2>Contribution and Payout Summary</h2>
-        <p>Here’s a summary of your recent contributions and payouts:</p>
-
+        <h2>All Receipts</h2>
         <table>
-            <tr>
-                <th>Date</th>
-                <th>Fund Pot</th>
-                <th>Contribution</th>
-                <th>Payout</th>
-            </tr>
-            <tr>
-                <td>01 Oct 2024</td>
-                <td>Health and Wellness</td>
-                <td>$100</td>
-                <td>$150</td>
-            </tr>
-            <tr>
-                <td>15 Sep 2024</td>
-                <td>Education Fund</td>
-                <td>$50</td>
-                <td>$60</td>
-            </tr>
-            <tr>
-                <td>01 Aug 2024</td>
-                <td>Travel Fund</td>
-                <td>$200</td>
-                <td>$220</td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Description</th>
+                    <th>Amount</th>
+                    <th>Download</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024-01-15</td>
+                    <td>Purchase of office supplies</td>
+                    <td>$500.00</td>
+                    <td><a href="receipts/receipt-001.pdf" download>Download</a></td>
+                </tr>
+                <tr>
+                    <td>2024-01-20</td>
+                    <td>Charity donation to XYZ</td>
+                    <td>$1,200.00</td>
+                    <td><a href="receipts/receipt-002.pdf" download>Download</a></td>
+                </tr>
+                <!-- Add more receipts here -->
+            </tbody>
         </table>
     </main>
 
     <footer>
-        <p>&copy; 2024 Fundraiser Hub</p>
+        <p>© 2024 Company Name</p>
     </footer>
 </body>
 </html>
