@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundraiser Hub - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Fundraiser Hub</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="fundpots.html">Fund Pots</a>
+            <a href="receipts.html">Receipts</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Empowering Subscribers to Improve Their Lives</h2>
+        <p>At Fundraiser Hub, we pool funds from our community and redistribute them back to our subscribers to enhance their lifestyles. The majority of the contributions go directly back to the community!</p>
+        <p>Join us today and be part of a unique opportunity to make a real impact while improving your own life.</p>
+        <button onclick="alert('Sign up process coming soon!')">Join Now</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fundraiser Hub</p>
+    </footer>
+</body>
+</html>
